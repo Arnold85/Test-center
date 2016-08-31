@@ -1,0 +1,50 @@
+.spacer{
+    width: 100%;
+    height: 100px;
+    background-color: deeppink;
+}
+.dozentcarousselitem {
+    width: 100%;
+    background-color: azure;
+}
+
+.dozentcarousselimgcont {
+    width: 30%;
+    min-height: 8em;
+    background-color: bisque;
+    float: left;
+}
+.dozentcarousselimgcont img {
+    width: 100%;
+    min-height: 8em;
+}
+
+.dozentcarousseltextcont {
+    width: 70%;
+    background-color: blueviolet;
+    float: left;
+    padding-top: 2em;
+}
+.dozentcarousseltextcont div{
+    background-color: chartreuse;
+}
+.dozentcarousseltextcont div span{
+/*    background-color: darkgreen;*/
+}
+.dozentcarousseltextcont div.spacer{
+    height: 2em;
+}
+
+.clearfix{
+    clear: both;
+}
+@media (max-width: 710px){
+    .dozentcarousseltextcont {
+    padding-top: 0.4em;
+}
+}
+
+@media (max-width: 620px){
+    .dozentcarousseltextcont div.spacer{
+    height: 0em;
+}
